@@ -1,5 +1,4 @@
 import streamlit as st
-import shap
 import pandas as pd
 import plotly.graph_objects as go
 from src.url_detector import predict as predict_url, extract_features as url_features
